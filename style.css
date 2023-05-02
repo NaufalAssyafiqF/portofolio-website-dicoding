@@ -1,0 +1,127 @@
+*{
+    margin: 0;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 400;
+}
+
+.title{
+    background-color: rgb(0, 110, 255);
+    align-items: center;
+    color: #ffff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+img{
+    width: 13%;
+    margin-top: 2rem;
+    outline: 2px solid rgb(0, 110, 255);
+    border-radius: 50%;
+}
+
+.top{
+    background-color: rgb(56, 53, 53);
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.top h1{
+    color: rgb(243, 211, 30);
+
+}
+
+.top h2{
+    color: white;
+    margin-top: 1rem;
+}
+
+.top h3{
+    margin: 0;
+    color: white;
+    margin-top: 1rem;
+    margin-bottom: 2rem;
+}
+
+.top h3 span{
+    color: rgb(0, 110, 255);
+}
+
+hr{
+    border: none;
+    height: 4px;
+    background: linear-gradient(to right, red, yellow, green, blue);
+    margin-top: 0px;
+}
+
+.bottom{
+    display: flex;
+}
+
+.left{
+    width: 50vw;
+}
+
+.right{
+    width: 35vw;
+}
+
+.left-mid{
+    margin-left: 9rem;
+    margin-top: 2rem;
+}
+.right-mid{
+    margin-top: 2rem;
+    margin-left: 2rem;
+}
+
+h4{
+    font-size: larger;
+    margin-bottom: 1rem;
+    font-weight: 600;
+}
+
+.hr-bottom{
+    border: none;
+    height: 2px;
+    background: rgb(226, 218, 218);
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+}
+
+.findMe{
+    margin-top: 1rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.findMe p{
+    font-size: larger;
+    font-weight: bold;
+}
+.left-mid p{
+    margin-bottom: 1rem;
+}
+
+.linkedin{
+    font-size: 2.5rem;
+    color: rgb(0, 119, 181);
+    margin-right: 2rem;
+}
+
+.twiter{
+    font-size: 2.5rem;
+    color: rgb(0, 119, 181);
+    margin-right: 2rem;
+}
+
+.github{
+    font-size: 2.5rem;
+    color: rgb(0, 119, 181);
+    margin-right: 2rem;
+}
